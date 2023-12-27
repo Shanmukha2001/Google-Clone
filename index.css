@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    font-size: small;    
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mail_img{
+    border-radius: 50%;
+    width: 30px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.srch {
+    margin: auto;
+}
+
+.below {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(226, 223, 223);
+    padding: 8px 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgb(247, 239, 239);
+    font-size: 15px;
+    /*font-weight: 600;*/
+    /*color: rgba(0,0,0,.54);*/
+}
+
+.bottom_2 {
+    padding: 10px 30px;
+    border-top: 1px solid rgb(226, 223, 223);
+}
+
+.content_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.srch{
+    box-shadow: 0 0 1px 1px rgba(167, 163, 163, 0.54);
+    border-radius: 99999999px;
+    padding: 8px 20px;
+    display: flex;
+}
+
+
+input {
+    outline: none;
+    width: 500px;
+    border: none;
+    font-size: 15px;
+    border-color: rgba(209, 206, 206, 0.54);
+    word-wrap: break-word;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    margin-left: 10px;
+}
+
+button {
+    border: 1px solid rgba(230, 225, 225, 0.54);
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 900;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 1px 1px rgba(167, 163, 163, 0.54);
+}
+
+.belo_in {
+    display: flex;
+    justify-content: center;
+}
+
+h4, a {
+    font-weight: 100;
+    font-size: small;
+    margin: 4px;
+    text-decoration: inherit;
+}
+
+.lang {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
